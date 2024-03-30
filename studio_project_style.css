@@ -1,0 +1,43 @@
+.main-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(52,74,83, 0.70);
+    border-radius: 10%;
+    flex-direction: column;
+}
+
+.studio-about-text, #tech-title {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 1.25vw;
+}
+
+#studio-paragraph, #project-desc {
+    font-size: 0.89vw;
+    font-weight: lighter;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8vw;
+}
+
+li {
+    margin-top: -4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.tech-used {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

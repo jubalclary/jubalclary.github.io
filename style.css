@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+
+body {
+    /*og starting gradient color: AC256D*/
+    background: linear-gradient(0deg, #003A64, #00CCFF);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+/* NAVBAR STYLING */
+
+.nav-item {
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    color: #98AFBA;
+}
+
+.navbar-container {
+    display: flex;
+}
+
+.navbar {
+    background-color: #344A53;
+    display: inline-flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 2%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px #344A53;
+    position: sticky;
+    font-size: 0.65vw;
+}

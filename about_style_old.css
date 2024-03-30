@@ -1,0 +1,124 @@
+.content-container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(52,74,83, 0.70);
+    border-radius: 10%;
+    
+}
+
+#about-img {
+    position: relative;
+    width: 35%;
+    height: auto;
+    border-radius: 20%;
+    margin-left: 5%;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.about-text-container {
+    margin-right: 5%;
+    margin-left: 5%;
+    justify-content: center;
+    height: 80%;
+    width: 50%;
+    max-width: 50%;
+}
+
+#name-text {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 3vw;
+}
+
+#desc-text {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.25vw;
+    font-style: italic;
+}
+
+#review-subtitle {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.25vw;
+    text-decoration: underline;
+    margin-top: 10.5%;
+}
+
+.review {
+    color: white;
+    background-color: rgba(52,74,83, 1);
+    font-size: 0.9vw;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 15%;
+}
+
+.quote {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 4%;
+    padding-top: 2%; 
+}
+
+.subtext {
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 4%;
+    text-align: right;
+    padding-bottom: 2%; 
+    font-weight: lighter;
+}
+
+.links-section {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#github-logo {
+    object-fit: contain;
+    width: 20%;
+    transition: background-color 0.2s ease;
+    border-radius: 15%;
+    margin-right: 10%;
+    cursor: pointer
+}
+
+#github-logo:hover {
+    background-color: white;
+}
+
+#linkedin-logo {
+    object-fit: contain;
+    transition: background-color 0.2s ease;
+    border-radius: 15%;
+    width: 19%;
+    cursor: pointer;
+}
+
+#linkedin-logo:hover {
+    background-color: white;
+}
+
+#resume-icon {
+    object-fit: contain;
+    width: 21%;
+    transition: background-color 0.2s ease;
+    border-radius: 15%;
+    margin-left: 9%;
+    cursor: pointer;
+}
+
+#resume-icon:hover {
+    background-color: white;
+}

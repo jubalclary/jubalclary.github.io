@@ -1,0 +1,129 @@
+html {
+    height: 130%;
+}
+
+.xavier-content-container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(52,74,83, 0.70);
+    border-radius: 10%;
+    flex-direction: column;
+}
+
+.logo-and-text-container {
+    display: flex;
+    align-items: center;
+    height: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#xavier-logo {
+    width: 25%;
+    cursor: pointer;
+}
+
+#degree-text {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+#xavier-text {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.25vw;
+    font-style: italic;
+}
+
+.xavier-list {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+    margin-left: 6.5%;
+}
+
+#courses {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    line-height: 150%;
+    font-size: 0.75vw
+}
+
+/*---Certificates Section---*/
+
+.certificates-content-container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(52,74,83, 0.70);
+    border-radius: 10%;
+    flex-direction: column;
+}
+
+.certificate-buttons-and-imgs-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#certificates-section-title {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0%;
+    font-size: 1.3vw;
+}
+
+#certificates-section-subtitle {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 1vw;
+}
+
+.certificate-buttons-container {
+    margin-left: 15%;
+}
+
+.certificate-buttons {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 0.65vw;
+}
+
+.certificate-button {
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0;
+    padding: 5%;
+    width: 100%;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.certificate-button:hover{
+    background-color: #98AFBA;
+}
+
+#certificate-img {
+    width: 45%;
+    margin-right: 15%;
+}
+

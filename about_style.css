@@ -1,0 +1,160 @@
+.content-container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(52,74,83, 0.70);
+    border-radius: 10%;
+    
+}
+
+.img-and-links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-img {
+    position: relative;
+    width: 70%;
+    height: auto;
+    border-radius: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.about-text-container {
+    margin-right: 5%;
+    margin-left: 5%;
+    justify-content: center;
+    height: 80%;
+    width: 150%;
+    max-width: 50%;
+}
+
+#name-text {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 3vw;
+}
+
+#desc-text {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.25vw;
+    font-style: italic;
+}
+
+#skills-subtitle {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.25vw;
+    text-decoration: underline;
+    margin-top: 7%;
+    font-size: 1.22vw;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+    overflow: auto;
+}
+
+.skill-item {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 17%;
+    font-size: .71vw;
+    font-weight: lighter;
+}
+
+.review {
+    color: white;
+    background-color: rgba(52,74,83, 1);
+    font-size: 0.9vw;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 15%;
+}
+
+.quote {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 4%;
+    padding-top: 2%; 
+}
+
+.subtext {
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 4%;
+    text-align: right;
+    padding-bottom: 2%; 
+    font-weight: lighter;
+}
+
+.links-section {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    margin-bottom: 3%;
+}
+
+#github-logo {
+    object-fit: contain;
+    width: 20%;
+    transition: background-color 0.2s ease;
+    border-radius: 15%;
+    margin-right: 10%;
+    cursor: pointer
+}
+
+#github-logo:hover {
+    background-color: white;
+}
+
+#linkedin-logo {
+    object-fit: contain;
+    transition: background-color 0.2s ease;
+    border-radius: 15%;
+    width: 19%;
+    cursor: pointer;
+}
+
+#linkedin-logo:hover {
+    background-color: white;
+}
+
+#resume-icon {
+    object-fit: contain;
+    width: 21%;
+    transition: background-color 0.2s ease;
+    border-radius: 15%;
+    margin-left: 9%;
+    cursor: pointer;
+}
+
+#resume-icon:hover {
+    background-color: white;
+}
+
+#contact {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 0.7vw;
+    padding-top: 3%;
+}

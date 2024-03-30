@@ -1,0 +1,121 @@
+html {
+    height: 130%;
+}
+
+/* STUDIO PROJECT */
+
+#projects-title {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2.25vw;
+    text-shadow: 0px 0px 30px #344A53;
+}
+
+#projects-subtitle {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.2vw;
+    text-shadow: 0px 0px 30px #344A53;
+    margin-top: -1%;
+}
+
+.project-cards-contianer {
+    display: flex;
+}
+
+.project-card {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(52,74,83, 0.70);
+    border-radius: 10%;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    background-color: #98AFBA;
+}
+
+#group-pic {
+    width: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 5%;
+    border-radius: 15%;
+}
+
+.studio-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-wrap:nowrap;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+#studio-title {
+    font-size: 1.35vw;;
+}
+
+#studio-subtitle {
+    font-size: 0.80vw;
+    font-style: italic;
+}
+
+/* TOURNAMENT MAKER */
+
+#tournament-maker-pic {
+    width: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    margin-left: 2%;
+    border-radius: 15%;    
+}
+
+.tournament-maker-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-wrap:nowrap;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+#tournament-maker-title {
+    font-size: 1.35vw;;
+}
+
+#tournament-maker-subtitle {
+    font-size: 0.80vw;
+    font-style: italic;
+}
+
+/* OTHER PROJECTS */
+
+#other-projects {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5%;
+    font-size: 1.5vw;
+    text-shadow: 0px 0px 30px #344A53;
+    cursor: pointer;
+}
+
+#other-projects:hover {
+    text-decoration: underline;
+}
