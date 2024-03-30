@@ -44,7 +44,7 @@ $(document).ready(() => {
 
     //---NAVBAR LINKS---
     $('#nav-about').on('click', () => {
-        window.open('./about.html', '_self')
+        window.open('./index.html', '_self')
     })
     $('#nav-education').on('click', () => {
         window.open('./education.html', '_self')
@@ -64,7 +64,7 @@ $(document).ready(() => {
     let certTimer
     let curCertIndex = 0
     const image = $('#certificate-img')
-    const imgsrcs = ["./imgs/certificates/Learn Bootstrap Certificate of Completion-1 (1).png","./imgs/certificates/Learn the Command Line Certificate of Completion-1 (1).png", "./imgs/certificates/Learn CSS Certificate of Completion-1 (1).png", "./imgs/certificates/Learn Git & GitHub Certificate of Completion-1 (1).png", "./imgs/certificates/Learn HTML Certificate of Completion-1 (1).png", "./imgs/certificates/Building Interacitve JavaScript Websites Certificate of Completion-1 (1).png", "./imgs/certificates/Learn Intermediate JavaScript Certificate of Completion-1 (1).png", "./imgs/certificates/Learn JavaScript Certificate of Completion-1 (1).png", "./imgs/certificates/Learn jQuery Certificate of Completion-1 (1).png", "./imgs/certificates/Learn React Certificate of Completion-1 (1).png"]
+    const imgsrcs = ["../imgs/certificates/Learn Bootstrap Certificate of Completion-1 (1).png","../imgs/certificates/Learn the Command Line Certificate of Completion-1 (1).png", "../imgs/certificates/Learn CSS Certificate of Completion-1 (1).png", "../imgs/certificates/Learn Git & GitHub Certificate of Completion-1 (1).png", "../imgs/certificates/Learn HTML Certificate of Completion-1 (1).png", "../imgs/certificates/Building Interacitve JavaScript Websites Certificate of Completion-1 (1).png", "../imgs/certificates/Learn Intermediate JavaScript Certificate of Completion-1 (1).png", "../imgs/certificates/Learn JavaScript Certificate of Completion-1 (1).png", "../imgs/certificates/Learn jQuery Certificate of Completion-1 (1).png", "../imgs/certificates/Learn React Certificate of Completion-1 (1).png"]
     
     function startCertAutoplay () {
         
