@@ -160,6 +160,50 @@ $(document).ready(() => {
         window.open('https://github.com/jubalclary')
     })
 
+        // Cycling studio images
+        const studioInterval = 5000
+        let studioTimer
+        let curStudioIndex = 0
+        const studioImage = $('#studio-pic')
+        const studioImgSrcs = ['./imgs/jojj-pic-2.png', './imgs/group pic.jpg', './imgs/jojj-pic-1.png']
+
+        function startStudioAutoplay () {
+            
+            studioImage.attr("src", studioImgSrcs[curStudioIndex]).fadeIn(400);
+    
+            studioTimer = setInterval(() => {
+                curStudioIndex < 2 ? curStudioIndex += 1 : curStudioIndex -= 2
+                
+                studioImage.fadeOut(400, () => {
+                    studioImage.attr("src", studioImgSrcs[curStudioIndex]).fadeIn(400);
+                });
+            }, studioInterval);
+        }
+    
+        startStudioAutoplay()
+
+        // Cycling tournament maker images
+        const tournamentInterval = 5000
+        let tournamentTimer
+        let curTournamentIndex = 0
+        const tournamentImage = $('#tournament-maker-pic')
+        const tournamentImgSrcs = ['./imgs/tournament-maker-pic-1.png', './imgs/tournament-maker-pic.png', './imgs/tournament-maker-pic-2.png']
+
+        function startTournamentAutoplay () {
+            
+            tournamentImage.attr("src", tournamentImgSrcs[curTournamentIndex]).fadeIn(400);
+    
+            tournamentTimer = setInterval(() => {
+                curTournamentIndex < 2 ? curTournamentIndex += 1 : curTournamentIndex -= 2
+                
+                tournamentImage.fadeOut(400, () => {
+                    tournamentImage.attr("src", tournamentImgSrcs[curTournamentIndex]).fadeIn(400);
+                });
+            }, tournamentInterval);
+        }
+    
+        startTournamentAutoplay()
+
     //-------------------
 
 
