@@ -64,7 +64,7 @@ $(document).ready(() => {
     let certTimer
     let curCertIndex = 0
     const image = $('#certificate-img')
-    const imgsrcs = ["../imgs/certificates/Learn Bootstrap Certificate of Completion-1 (1).png","../imgs/certificates/Learn the Command Line Certificate of Completion-1 (1).png", "../imgs/certificates/Learn CSS Certificate of Completion-1 (1).png", "../imgs/certificates/Learn Git & GitHub Certificate of Completion-1 (1).png", "../imgs/certificates/Learn HTML Certificate of Completion-1 (1).png", "../imgs/certificates/Building Interacitve JavaScript Websites Certificate of Completion-1 (1).png", "../imgs/certificates/Learn Intermediate JavaScript Certificate of Completion-1 (1).png", "../imgs/certificates/Learn JavaScript Certificate of Completion-1 (1).png", "../imgs/certificates/Learn jQuery Certificate of Completion-1 (1).png", "../imgs/certificates/Learn React Certificate of Completion-1 (1).png", "../imgs/certificates/Analyze Data with SQL Certificate of Completion-1.png"]
+    const imgsrcs = ["../imgs/certificates/Learn Bootstrap Certificate of Completion-1 (1).png","../imgs/certificates/Learn the Command Line Certificate of Completion-1 (1).png", "../imgs/certificates/Learn CSS Certificate of Completion-1 (1).png", "../imgs/certificates/Learn Git & GitHub Certificate of Completion-1 (1).png", "../imgs/certificates/Learn HTML Certificate of Completion-1 (1).png", "../imgs/certificates/Building Interacitve JavaScript Websites Certificate of Completion-1 (1).png", "../imgs/certificates/Learn Intermediate JavaScript Certificate of Completion-1 (1).png", "../imgs/certificates/Learn JavaScript Certificate of Completion-1 (1).png", "../imgs/certificates/Learn jQuery Certificate of Completion-1 (1).png", "../imgs/certificates/Learn React Certificate of Completion-1 (1).png", "../imgs/certificates/Analyze Data with SQL Certificate of Completion-1.png", "../imgs/certificates/Learn Vue.js Certificate of Completion-1.png"]
     
     function startCertAutoplay () {
         
@@ -73,7 +73,7 @@ $(document).ready(() => {
         image.attr("src", imgsrcs[curCertIndex]).fadeIn(400);
 
         certTimer = setInterval(() => {
-            curCertIndex < 10 ? curCertIndex += 1 : curCertIndex -= 10
+            curCertIndex < 11 ? curCertIndex += 1 : curCertIndex -= 11
             
             image.fadeOut(400, () => {
                 image.attr("src", imgsrcs[curCertIndex]).fadeIn(400);
@@ -148,6 +148,12 @@ $(document).ready(() => {
     $("#SQL-button").click(() => {
         clearInterval(certTimer)
         curCertIndex = 10
+        startCertAutoplay()
+    })
+
+    $("#VUE-button").click(() => {
+        clearInterval(certTimer)
+        curCertIndex = 11
         startCertAutoplay()
     })
     //--------------------------
