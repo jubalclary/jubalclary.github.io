@@ -54,9 +54,14 @@ $(document).ready(() => {
     })
     //------------------
 
+    // Xavier Text
+    $("#xavier-text").click(() => {
+        window.open('https://www.xavier.edu/')
+    })
+
     // Xavier Image
     $("#xavier-logo").click(() => {
-        window.open('https://www.xavier.edu/')
+        window.open('./imgs/Xavier Diploma Cropped.jpg')
     })
 
     //---CYCLING CERTIFICATES---
